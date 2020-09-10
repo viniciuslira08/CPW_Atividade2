@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MultiCalculadora</title>
+	<meta charset="utf-8">
+	<script src="MultiCalculadora.js"></script>
+	<link rel="stylesheet" type="text/css" href="MultiCalculadora.css">
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>MultiCaluladora</legend>
+			
+			<div id="radio">
+				<input type="radio" name="selecao" onclick="acessarIMC();">IMC
+				<input type="radio" name="selecao" onclick="acessarReta();">Retângulo
+				<input type="radio" name="selecao" onclick="acessarCirc();">Círculo
+			</div>
+			
+			<div id="numero">
+				<label>Base:</label>
+				<input id="base" type="text" name="Base">
+			</div>
+			
+			<div id="altura">
+				<label>Altura:</label>
+				<input id="alturaB" type="text" name="AlturaB">
+			</div>
+
+			<dir id="Calcular">
+				<button type="button" onclick="calcularReta();">Calcular</button>
+			</dir>
+
+		</fieldset>
+	</form>
+</body>
+</html>

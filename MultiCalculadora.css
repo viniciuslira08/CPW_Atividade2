@@ -1,0 +1,29 @@
+form{
+	max-width: 700px;
+}
+
+form legend{
+	font-size: 20px;
+
+}
+
+form input{
+	max-width: 70px;
+	margin-top: 2px;
+	padding: 5px 5px 5px;
+	align-content: 5px;
+
+}
+label {
+  display: inline-block;
+  width: 40px;
+  text-align: right;
+  padding: 10px 10px;
+}
+#radio{
+	padding: 10px 10px;
+}
+
+#Calcular{
+	padding: 5px 10px;
+}
